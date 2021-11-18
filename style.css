@@ -11,3 +11,24 @@
 div.banner:hover{
   transform: scale(1.2);
 } 
+
+body{
+  background-color: black;
+  color: white;
+} 
+
+
+
+.image {
+  transform:rotate(0deg);
+  transition: .3s;
+} 
+
+
+.image:hover{
+  transform: rotate(360deg); 
+} 
+
+.row{
+  padding-top: 30px;
+} 
